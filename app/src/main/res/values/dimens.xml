@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Splash Activity -->
+    <dimen name="padding_margin">10dp</dimen>
+    <dimen name="padding_margin_sing_in">50dp</dimen>
+    <dimen name="image_view_width">64dp</dimen>
+    <dimen name="image_view_height">64dp</dimen>
+    <style name="AllText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textColorHint">#fff</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

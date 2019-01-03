@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="singin_hint_phonenumber">"شماره همراه"</string>
+    <string name="singin_button_text">"ورود"</string>
+</resources>
