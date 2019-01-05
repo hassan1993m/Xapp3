@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_sign_up"
+            android:layout_width="@dimen/image_view_hafezieh_size"
+            android:layout_height="@dimen/image_view_hafezieh_size"
+            app:srcCompat="@drawable/hafezieh_vector" />
+
+        <TextView
+            android:id="@+id/text_View_sign_up"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:text="@string/sign_up_text_view" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_icon_edit_text_sign_up_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity">
+
+            <EditText
+                android:id="@+id/text_input_sign_up_user"
+                style="@style/AllHint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_sign_height"
+                android:autofillHints=""
+                android:background="@drawable/button_style"
+                android:hint="@string/sign_up_hint_your_name"
+                android:inputType="text"
+                android:maxLength="25" />
+
+            <ImageView
+                android:id="@+id/image_icon_phone_sign_up_user"
+                android:layout_width="@dimen/image_view_icon_phone"
+                android:layout_height="@dimen/image_view_icon_phone"
+                android:layout_alignRight="@id/text_input_sign_up_user"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_very_small_for_all_activity"
+                android:src="@drawable/icon_user_vector" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_icon_edit_text_sign_up_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity">
+
+            <EditText
+                android:id="@+id/text_input_sign_up_phone"
+                style="@style/AllHint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_sign_height"
+                android:background="@drawable/button_style"
+                android:hint="@string/sign_in_hint_phone_number"
+                android:inputType="phone"
+                android:maxLength="11" />
+
+            <ImageView
+
+                android:id="@+id/image_icon_phone_sign_up_phone"
+                android:layout_width="@dimen/image_view_icon_phone"
+                android:layout_height="@dimen/image_view_icon_phone"
+                android:layout_alignRight="@id/text_input_sign_up_phone"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding_margin_very_small_for_all_activity"
+                android:src="@drawable/icon_phone_vector" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_sign_up"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_sign_height"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:background="@drawable/button_style"
+            android:text="@string/sign_up_button_text" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_view_sign_in"
+            android:layout_width="@dimen/image_view_hafezieh_size"
+            android:layout_height="@dimen/image_view_hafezieh_size"
+            app:srcCompat="@drawable/hafezieh_vector" />
+
+        <TextView
+            android:id="@+id/text_View_sign_in"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:text="@string/sign_in_text_view" />
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_icon_edit_text_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity">
+
+            <EditText
+                android:id="@+id/text_input_sign_in"
+                style="@style/AllHint"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_text_sign_height"
+                android:background="@drawable/button_style"
+                android:hint="@string/sign_in_hint_phone_number"
+                android:inputType="phone"
+                android:maxLength="11" />
+
+            <ImageView
+
+                android:id="@+id/image_icon_phone_sign_in"
+                android:layout_width="@dimen/image_view_icon_phone"
+                android:layout_height="@dimen/image_view_icon_phone"
+                android:layout_alignRight="@id/text_input_sign_in"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="@dimen/padding_margin_very_small_for_all_activity"
+                android:src="@drawable/icon_phone_vector" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button_sign_in"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_sign_height"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:background="@drawable/button_style"
+            android:text="@string/sign_in_button_text"
+            tools:layout_editor_absoluteX="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_verification"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageView_verification"
+            android:layout_width="@dimen/image_view_hafezieh_size"
+            android:layout_height="@dimen/image_view_hafezieh_size"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/hafezieh_vector" />
+
+        <TextView
+            android:id="@+id/text_View_verification"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/padding_margin_medium_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_medium_for_all_activity"
+            android:text="@string/activation_text_view" />
+
+        <EditText
+            android:id="@+id/text_input_verification"
+            style="@style/AllHint"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edit_text_sign_height"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:background="@drawable/button_style"
+            android:hint="@string/activation_hint_text_input"
+            android:inputType="number"
+            android:maxLength="4" />
+
+        <Button
+            android:id="@+id/button_verification"
+            style="@style/AllText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_sign_height"
+            android:layout_marginLeft="@dimen/padding_margin_large_for_all_activity"
+            android:layout_marginTop="@dimen/padding_margin_very_small_for_all_activity"
+            android:layout_marginRight="@dimen/padding_margin_large_for_all_activity"
+            android:background="@drawable/button_style"
+            android:text="@string/activation_button_text" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

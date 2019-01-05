@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Splash Activity -->
-    <dimen name="padding_margin">50dp</dimen>
-    <dimen name="padding_margin_sing_in">50dp</dimen>
-    <dimen name="image_view_width">128dp</dimen>
-    <dimen name="image_view_height">128dp</dimen>
-    <style name="AllText">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#FFF</item>
-        <item name="android:textColorHint">#FFF</item>
-        <item name="android:textSize">18sp</item>
-        <item name="android:gravity">center</item>
-    </style>
-</resources>
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Splash Activity -->
+        <dimen name="padding_margin_very_small_for_all_activity">7.5dp</dimen>
+        <dimen name="padding_margin_small_for_all_activity">15dp</dimen>
+        <dimen name="padding_margin_medium_for_all_activity">45dp</dimen>
+        <dimen name="padding_margin_large_for_all_activity">75dp</dimen>
+        <dimen name="padding_margin_very_large_for_all_activity">150dp</dimen>
+        <dimen name="image_view_hafezieh_size">256dp</dimen>
+        <dimen name="image_view_icon_phone">64dp</dimen>
+        <dimen name="edit_text_sign_height">80dp</dimen>
+        <dimen name="button_sign_height">80dp</dimen>
+
+        <style name="AllText">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">#fff</item>
+            <item name="android:textColorHint">#fff</item>
+            <item name="android:textSize">32sp</item>
+            <item name="android:gravity">center</item>
+        </style>
+        <style name="AllHint">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">#FFFFFF</item>
+            <item name="android:textColorHint">#4DFFFFFF</item>
+            <item name="android:textSize">32sp</item>
+            <item name="android:gravity">center</item>
+        </style>
+    </resources>
